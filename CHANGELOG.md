@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.0.0-alpha.2](https://github.com/S-Ali-S/store/compare/v1.0.0-alpha.2...v1.0.0-alpha.2) (2022-12-05)
+
+
+### Features
+
+* add `clear` method ([#12](https://github.com/S-Ali-S/store/issues/12)) ([e4f391c](https://github.com/S-Ali-S/store/commit/e4f391c35e73a110d46af19656eedbb1f8addf15))
+* add `delete` operation ([#15](https://github.com/S-Ali-S/store/issues/15)) ([c175d7f](https://github.com/S-Ali-S/store/commit/c175d7f349409dba0832bb64f85f182bbc76f083))
+* add a basic Store ([#1](https://github.com/S-Ali-S/store/issues/1)) ([60ce968](https://github.com/S-Ali-S/store/commit/60ce968c166b3242d5c1d45d3c9cc895314df7ed))
+* add count method ([#5](https://github.com/S-Ali-S/store/issues/5)) ([cede19e](https://github.com/S-Ali-S/store/commit/cede19ede2c455ae00337f6b4ca67b3ae3dc4686))
+* add createStore ([#33](https://github.com/S-Ali-S/store/issues/33)) ([94230b1](https://github.com/S-Ali-S/store/commit/94230b1f106735b7edc1df9cfe33ba0c31f9405a))
+* add find ([#3](https://github.com/S-Ali-S/store/issues/3)) ([ef28f4b](https://github.com/S-Ali-S/store/commit/ef28f4bae42f18fb1fe065d1edf02eca2c96b056))
+* add find ([#4](https://github.com/S-Ali-S/store/issues/4)) ([de80d2b](https://github.com/S-Ali-S/store/commit/de80d2bc88f8019a0781a20d356df40f33784eb8))
+* add findFirstOrThrow ([#2](https://github.com/S-Ali-S/store/issues/2)) ([80b2ddb](https://github.com/S-Ali-S/store/commit/80b2ddbac2b036d069b7664cb46b565bfe92607e))
+* add initial support for on-to-one relations ([#7](https://github.com/S-Ali-S/store/issues/7)) ([4d7a305](https://github.com/S-Ali-S/store/commit/4d7a30537c1b8d40f408fe58b15948d40d517f2c))
+* add initial support for one-to-many relations ([#8](https://github.com/S-Ali-S/store/issues/8)) ([79f0a41](https://github.com/S-Ali-S/store/commit/79f0a41cd68101c5bd215d179f0c102e9ee428e3))
+* add support for `clear` multiple collections ([#13](https://github.com/S-Ali-S/store/issues/13)) ([ff0c020](https://github.com/S-Ali-S/store/commit/ff0c020e49c7310238143f18a5c061a77023ccce))
+* add update method ([#6](https://github.com/S-Ali-S/store/issues/6)) ([cb68416](https://github.com/S-Ali-S/store/commit/cb684164a10e724ab491dfdb219f56fd6a5b9b37))
+* improve support for one-to-many relations ([#30](https://github.com/S-Ali-S/store/issues/30)) ([2df5e2d](https://github.com/S-Ali-S/store/commit/2df5e2dd46b3bfe0178a436e92a25ef675e9f826))
+* prevent document mutation with Object.defineProperty ([#18](https://github.com/S-Ali-S/store/issues/18)) ([dc90032](https://github.com/S-Ali-S/store/commit/dc9003254fbbc2963fa67023b51f6da3906e38b3))
+
+
+### Bug Fixes
+
+* remove postinstall script to fix installation ([#37](https://github.com/S-Ali-S/store/issues/37)) ([543f9b6](https://github.com/S-Ali-S/store/commit/543f9b6526eafda368d4fd71d73003aaa52e453a))
+
+
+### Performance Improvements
+
+* refactor `reset` method to clear all collections ([#14](https://github.com/S-Ali-S/store/issues/14)) ([c3edacb](https://github.com/S-Ali-S/store/commit/c3edacb7508e955f74a19ed5f09e9b08a8905342))
+
+
+### Continuous Integration
+
+* enable pre-release for release-please ([0f6bf46](https://github.com/S-Ali-S/store/commit/0f6bf46e8f96ec1af703976fe4f42906d21a29e7))
+
+
+### Miscellaneous Chores
+
+* fix release version ([1bffa5e](https://github.com/S-Ali-S/store/commit/1bffa5e3a6aee83409a4aa42a628f7adce5b883b))
+
 ## [1.0.0-alpha.2](https://github.com/graphql-utils/store/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-12-05)
 
 ### Bug Fixes
